@@ -41,7 +41,8 @@ cd ecommerce-telegram-automation-bot
 pip install -r requirements.txt
 ```
 3. Environment Setup
-​Configure your bot credentials in config.py or export them as environment variables:
+​Configure your bot credentials in
+ config.py or export them as environment variables:
 ```
 export BOT_TOKEN="your_telegram_bot_token"
 export ADMIN_PASSWORD="your_admin_password"
