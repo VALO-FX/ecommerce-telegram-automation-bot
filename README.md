@@ -34,6 +34,7 @@ Install the Tesseract-OCR engine on your host server:
 sudo apt-get update && sudo apt-get install -y tesseract-ocr
 ```
 2. Installation
+   
 ​Clone the repository and install Python dependencies:
 ```
 git clone [https://github.com/VALO-FX/ecommerce-telegram-automation-bot.git](https://github.com/VALO-FX/ecommerce-telegram-automation-bot.git)
@@ -41,6 +42,7 @@ cd ecommerce-telegram-automation-bot
 pip install -r requirements.txt
 ```
 3. Environment Setup
+   
 ​Configure your bot credentials in
  config.py or export them as environment variables:
 ```
@@ -48,6 +50,7 @@ export BOT_TOKEN="your_telegram_bot_token"
 export ADMIN_PASSWORD="your_admin_password"
 ```
 4. Running the Application
+
 ​Grant execution permissions and launch the process runner:
 ```
 chmod +x run.sh
