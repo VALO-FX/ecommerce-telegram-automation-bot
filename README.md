@@ -36,8 +36,9 @@ sudo apt-get update && sudo apt-get install -y tesseract-ocr
 ### 2. Installation
    
 ​Clone the repository and install Python dependencies:
-```
+
 git clone [https://github.com/VALO-FX/ecommerce-telegram-automation-bot.git](https://github.com/VALO-FX/ecommerce-telegram-automation-bot.git)
+```
 cd ecommerce-telegram-automation-bot
 pip install -r requirements.txt
 ```
@@ -56,5 +57,6 @@ export ADMIN_PASSWORD="your_admin_password"
 chmod +x run.sh
 ./run.sh
 ```
-📄 License
+## 📄 License
+
 ​This project is licensed under the MIT License - see the LICENSE file for details.
